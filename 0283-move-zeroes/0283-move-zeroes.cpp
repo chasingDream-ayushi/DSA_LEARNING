@@ -2,8 +2,8 @@ class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
         int n = nums.size();
-        int i = 0;
-        int j = 0;
+        int i , j = 0;
+    
         if (n == 0){
             return;
         }
